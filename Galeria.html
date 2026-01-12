@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navhis">
+        <div class="logo-container">
+            <img src="imagens/Fox.png" alt="Logo Raposa">
+            <span class="logo">RedKitsune Art</span>
+        </div>
+
+        <ul class="links">
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/ReadKitsune_Art.html">Início</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></li>            
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></li>
+        </ul>
+        </div> 
+    </header>
+    
+    <section class="video-fundo-g">
+
+        <div class="video-fundo-g2"></div>
+
+        <div class="video-texto-g">
+            <div class="galeria2">
+                <h2><a>Galeria</a></h2>
+                <p>Minha galeria repleta de desenhos fisícos e digitais</p>
+                <p><u>EM MANUTENÇÃO</u></p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container-colunas">
+            
+            <div class="coluna-esquerda">
+                <p><strong>Seja bem-vindos a minha galeria. Onde vou colocar todos os meus desenhos já feito físico e digital.</strong></p>
+                <p><strong>Claro que de emediato quero avisa que alguns desenhos possuem temas sensíveis contendo 
+                    violência, suicidio,... Bem, não sou boa de dar aviso, mas vocês entenderam né? (ㆆ_ㆆ)
+                </strong></p>
+                <p><strong>Espero que gostem (っ＾▿＾)</strong></p>
+                <p><strong>Ao clirarem na imagem vai abrir uma outra aba para verem melhor (se quiserem).</strong></p>
+                <br>
+                <div class="galeria_ias">
+                            <a target="_blank" href="imagens/img01.jfif" class="mouse">
+                                <img src="imagens/img01.jfif" alt="iasmin">
+                                <span class="mouse-text">Aqui ficara a descrição dos desenhos!</span>
+                            </a>
+                </div>
+                
+                <button id="btn-topo" onclick="voltarAoTopo()">
+                    <img src="imagens/seta.png" class="icone-seta">
+                </button>
+
+                <script>
+                    // Mostrar botão ao rolar
+                    window.addEventListener("scroll", function () {
+                        const btn = document.getElementById("btn-topo");
+                        if (window.scrollY > 200) {
+                            btn.style.display = "block";
+                        } else {
+                            btn.style.display = "none";
+                        }
+                    });
+
+                    // Função para voltar ao topo
+                    function voltarAoTopo() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    }
+                </script>
+            </div>
+
+            <div class="coluna-direita borda-roxa">
+                <img src="imagens/dance_cat_dance.gif">
+                <div class="music-player">
+                <button id="prevBtn">⏮</button>
+                <button id="playPauseBtn">▶</button>
+                <button id="nextBtn">⏭</button>
+                
+            </div>
+            <input type="range" id="seekBar" value="0" min="0" max="100">
+
+            <audio id="audioPlayer"></audio>
+            <div class="info-scroll">
+                <p>Playlist:</p>
+                <p>-Jogos-</p>
+                <p>1. Memory  (Ib)</p>
+                <P>2. A Home For Flowers (Omori)</p>
+                <P>3. Home - box music (Undertale)</p>
+                <P>4. Sleep Well (Poppy Playtime: Chapter 3)</p>
+                <P>5. Snow World (Yume Nikki)</p>
+                <P>6. November-Waltz (Roblox - Work At a Pizza Place)</p>
+                <P>7. Green Hill Zone (Sonic)</p>
+                <P>8. It's been so long (Five Nights at Freddy)</p>
+                <P>9. Haggstrom (Minecraft)</p>
+                <P>10. Great Fairy Fountain (The Legend of Zelda- Breath of the Wild)</p>
+                <P>11. Doki Doki literature club! (Doki Doki LC)</p>
+                <P>12. A Cyber's World (Deltarune)</p>
+                <p>13. Turf's Up (Crash of the Titans)</p>
+                <p>14. The Mermaid song (Dolia - Honor of King)</p>
+                <p>15. Amanda The Adventurer theme(Amanda The Adventurer)</p>
+                <p>16. Build Our Machine (Bendy and the Ink Machine)</p>
+                <p>17. Barnaby Chase Orchestral (Billie Bust Up)</p>
+                
+            </div>
+            <div class="stamps_contato">
+                <p>
+                    <img src="imagens/yumenikki.gif">
+                    <img src="imagens/cat_fate.gif">
+                </p>
+                <p>
+                    <img src="imagens/error.gif">
+                    <img src="imagens/paranoid.gif">
+                </p>
+                <p>
+                    <img src="imagens/madoka_magica.gif">
+                    <img src="imagens/dangaropa.png">
+                </p>
+                <p>
+                    <img src="imagens/dance_bizarre.gif">
+                    <img src="imagens/genshi_game.gif">
+                </p>
+                <p>
+                    <img src="imagens/japanese.gif">
+                    <img src="imagens/yuri_doki.png">
+                </p>
+                <p>
+                    <img src="imagens/omori.png">
+                    <img src="imagens/love_sleeping.gif">
+                </p>
+            </div>
+            <script>
+                const playlist = [
+                    "musicas/Memory-ib.mp4",
+                    "musicas/A Home For Flowers-Omori.mp4",
+                    "musicas/Home-undertale.mp4",
+                    "musicas/CG5 - Sleep Well.mp4",
+                    "musicas/Yume Nikki OST - Snow World.mp4",
+                    "musicas/November-Waltz - Work At a Pizza Place.mp4",
+                    "musicas/Green hill zone ~ sonic.mp4",
+                    "musicas/Five Nights at Freddy's 2 Song - The Living Tombstone (FNAF2).mp4",
+                    "musicas/C418 - Haggstrom - Minecraft Volume Alpha.mp4",
+                    "musicas/Great Fairy Fountain (The Legend of Zelda_ Breath of the Wild OST).mp4",
+                    "musicas/Doki Doki Literature Club!.mp4",
+                    "musicas/DELTARUNE.mp4",
+                    "musicas/Turf's Up - Crash of the Titans (Album Soundtrack).mp4",
+                    "musicas/Honor of Kings _ Dolia _The Mermaid song_.mp4",
+                    "musicas/Amanda the Adventurer.mp4",
+                    "musicas/BENDY AND THE INK MACHINE SONG .mp4",
+                    "musicas/Billie Bust Up Barnaby Chase Orchestral Update!.mp4"
+                ];
+
+                let currentTrack = 0;
+
+                const audio = document.getElementById("audioPlayer");
+                const playPauseBtn = document.getElementById("playPauseBtn");
+                const seekBar = document.getElementById("seekBar");
+
+                // Carrega a primeira música
+                audio.src = playlist[currentTrack];
+
+                // Play / Pause
+                playPauseBtn.addEventListener("click", () => {
+                    if (audio.paused) {
+                        audio.play();
+                        playPauseBtn.textContent = "⏸";
+                    } else {
+                        audio.pause();
+                        playPauseBtn.textContent = "▶";
+                    }
+                });
+
+                // Botão anterior
+                document.getElementById("prevBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Botão próximo
+                document.getElementById("nextBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Atualizar barra conforme música toca
+                audio.addEventListener("timeupdate", () => {
+                    if (audio.duration) {
+                        seekBar.value = (audio.currentTime / audio.duration) * 100;
+                    }
+                });
+
+                // Arrastar a barra para mudar o ponto da música
+                seekBar.addEventListener("input", () => {
+                    audio.currentTime = (seekBar.value / 100) * audio.duration;
+                });
+
+                // Quando uma música termina → próxima
+                audio.addEventListener("ended", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+            </script>
+                <p>Não sei porque eu decidi colocar músicas </p>
+                <p>baseadas de jogos...</p>
+                <p>Bem, é a vida, é só para curtir mesmo a galeria</p>
+                <p>≧(´▽｀)≦</p>
+                <p>Então espero que gostem hehe ^^ </p>
+                <p>e um aviso pequenininho:</p>
+                <p><u>A playlist muda de acordo com a página que está,</u></p>
+                <p><u>então lute pra achar a música que gosta.</u></p>
+                <p>┬──┬◡ﾉ(° -°ﾉ)</p>
+                <p>(丿>ロ<)丿 ┤∵:.</p>
+                <p>(╯°□°）╯︵ ┻━┻</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>RedKitsune Art</h3>
+            <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RedKitsune Art — Feito por Ingrid Batista Barros</p>
+            <p>Espero que tenham gostado e até a próxima :3</p>
+        </div>
+    </footer>
+</body>
+</html>

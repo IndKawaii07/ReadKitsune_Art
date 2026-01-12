@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navhis">
+        <div class="logo-container">
+            <img src="imagens/Fox.png" alt="Logo Raposa">
+            <span class="logo">RedKitsune Art</span>
+        </div>
+
+        <ul class="links">
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/ReadKitsune_Art.html">Início</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></li>            
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></li>
+        </ul>
+        </div> 
+    </header>
+
+    <section class="video-fundo-c">
+
+        <div class="video-fundo-c2"></div>
+
+        <div class="video-texto-c">
+            <div class="contato2">
+                <h2><a>Contato</a></h2>
+                <p>Você quer mesmo ter contato comigo?</p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container-colunas">
+            
+            <div class="coluna-esquerda">
+                <p><strong>Bom, se chegou até aqui ou você é muito </strong><a href="https://www.youtube.com/watch?v=Cnnxek3IDu8"><u>CURIOSO</u></a><strong> ou porque realmente quer ter contato comigo...</strong></p>
+                <p><strong>Então, obrigada!!! ;3</strong></p>
+                <p><a href="https://www.youtube.com/watch?v=Y3MrwYH3hCY" class="mouse">
+                    <img src="imagens/miku_nyan.gif" >
+                    <span class="mouse-text">Clica em mim!</span>
+                    </a>
+                </p>
+                <p><strong>Aqui tem minhas redes sociais caso queira me conhecer e dar um oi:</strong></p>
+                <div class="redes_sociais">
+                    <a href="https://www.instagram.com/isiskawaii07/" target="_blank"> 
+                        <img src="imagens/instagram.png" class="social-icon">
+                    </a>
+                    <a href="https://www.facebook.com/ingrid.batista.barros.barros/" target="_blank">
+                        <img src="imagens/face.png" class="social-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ingrid-barros-32a8a02b1/" target="_blank">
+                        <img src="imagens/linkedin.png" class="social-icon">
+                    </a>
+                    <a href="https://www.roblox.com/pt/users/2517539310/profile" target="_blank">
+                        <img src="imagens/roblox.png" class="social-icon">
+                    </a>
+                    <a href="https://www.tiktok.com/@ingridkawaii07?lang=pt" target="_blank">
+                        <img src="imagens/tiktok.png" class="social-icon">
+                    </a>
+                </div>
+                <p><strong>Agora se quer conversar por outra rede social. Preencha esse formulário e aproveita e da seu</strong><a href="https://www.youtube.com/watch?v=ON8bXxHhRDM"> feedback,</a><strong> please. e obrigadinha. ;3</strong></p>
+                <div class="form-container">
+                    <iframe
+                        src="https://forms.gle/6vHq14jCLSJMfjUW9"
+                        width="100%" 
+                        height="950" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                    </iframe>
+                </div>
+                <button id="btn-topo" onclick="voltarAoTopo()">
+                    <img src="imagens/seta.png" class="icone-seta">
+                </button>
+
+                <script>
+                    // Mostrar botão ao rolar
+                    window.addEventListener("scroll", function () {
+                        const btn = document.getElementById("btn-topo");
+                        if (window.scrollY > 200) {
+                            btn.style.display = "block";
+                        } else {
+                            btn.style.display = "none";
+                        }
+                    });
+
+                    // Função para voltar ao topo
+                    function voltarAoTopo() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    }
+                </script>
+            </div>
+
+            <div class="coluna-direita borda-roxa">
+                <img src="imagens/dance.gif">
+                <div class="music-player">
+                <button id="prevBtn">⏮</button>
+                <button id="playPauseBtn">▶</button>
+                <button id="nextBtn">⏭</button>
+                
+            </div>
+            <input type="range" id="seekBar" value="0" min="0" max="100">
+
+            <audio id="audioPlayer"></audio>
+            <div class="info-scroll">
+                <p>Playlist:</p>
+                <p>-Anime-</p>
+                <p>1. Renai circulation  (Bakemonogatari)</p>
+                <P>2. Chikatto Chika Chika (Kauya-sama: Love is War)</p>
+                <P>3. Fiction Sumika (Wotakoi ni Koi wa Muzukashiii)</p>
+                <P>4. Kawaki wo Ameku (Domestic Girlfriend)</p>
+                <P>5. Hikaru Nara (Your Lie in April)</p>
+                <P>6. A Cruel Angel's Thesis (Neon Genesis Evangelion)</p>
+                <P>7. Avid (Eighty-six)</p>
+                <P>8. Jane Doe (Chainsaw Man) </p>
+                <P>9. Kaibutsu (Beastars)</p>
+                <P>10. Mezame Returner (Zombieland saga)</p>
+                <P>11. Clattanoia (Overlord)</p>
+                <P>12. Song of the Dead (Zom 100: Bucket List of the Dead)</p>
+                <P>13. ODD FUTURE (Boku no Hero Academia)</p>
+                <P>14. Inferno (Fire Force)</p>
+            </div>
+            <div class="stamps_contato">
+                <p>
+                    <img src="imagens/cats.gif">
+                    <img src="imagens/caramelidansen.gif">
+                </p>
+                <p>
+                    <img src="imagens/brilho2.gif">
+                    <img src="imagens/what.gif">
+                </p>
+                <p>
+                    <img src="imagens/black_pokemon.png">
+                    <img src="imagens/fuck.gif">
+                </p>
+                <p>
+                    <img src="imagens/dancing.gif">
+                    <img src="imagens/nyan.png">
+                </p>
+                <p>
+                    <img src="imagens/hatsune2.gif">
+                    <img src="imagens/undertale_no.gif">
+                </p>
+                <p>
+                    <img src="imagens/star.gif">
+                    <img src="imagens/silence.gif">
+                </p>
+            </div>
+            <script>
+                const playlist = [
+                    "musicas/Renai Circulation.mp4",
+                    "musicas/Super Bright Shining Girl _Chika_.mp4",
+                    "musicas/Fiction   Sumika.mp4",
+                    "musicas/Kawaki wo Ameku.mp4",
+                    "musicas/Hikaru Nara - Goose House.mp4",
+                    "musicas/The Cruel Angel's Thesis _ Evangelion Finally.mp4",
+                    "musicas/86 EIGHTY-SIX - Ending Full『Avid』by SawanoHiroyuki[nZk]_mizuki.mp4",
+                    "musicas/Kenshi Yonezu - Jane Doe (Lyrics).mp4",
+                    "musicas/YOASOBI – '怪物 (Monster)' Lyrics.mp4",
+                    "musicas/MEZAME RETURNER.mp4",
+                    "musicas/Clattanoia Music Clip.mp4",
+                    "musicas/Zom 100_ Bucket List of the Dead.mp4",
+                    "musicas/ODD FUTURE.mp4",
+                    "musicas/Mrs. GREEN APPLE（Inferno）.mp4"
+                ];
+
+                let currentTrack = 0;
+
+                const audio = document.getElementById("audioPlayer");
+                const playPauseBtn = document.getElementById("playPauseBtn");
+                const seekBar = document.getElementById("seekBar");
+
+                // Carrega a primeira música
+                audio.src = playlist[currentTrack];
+
+                // Play / Pause
+                playPauseBtn.addEventListener("click", () => {
+                    if (audio.paused) {
+                        audio.play();
+                        playPauseBtn.textContent = "⏸";
+                    } else {
+                        audio.pause();
+                        playPauseBtn.textContent = "▶";
+                    }
+                });
+
+                // Botão anterior
+                document.getElementById("prevBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Botão próximo
+                document.getElementById("nextBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Atualizar barra conforme música toca
+                audio.addEventListener("timeupdate", () => {
+                    if (audio.duration) {
+                        seekBar.value = (audio.currentTime / audio.duration) * 100;
+                    }
+                });
+
+                // Arrastar a barra para mudar o ponto da música
+                seekBar.addEventListener("input", () => {
+                    audio.currentTime = (seekBar.value / 100) * audio.duration;
+                });
+
+                // Quando uma música termina → próxima
+                audio.addEventListener("ended", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+            </script>
+                <p>Eu não pensei muito o que escrever aqui...</p>
+                <p>Então eu acho que é só isso... He he ≧(´▽｀)≦</p>
+                <p>Apenas vê as outras páginas logo ᕙ(⇀‸↼‶)ᕗ </p>
+                <p>e um aviso pequenininho:</p>
+                <p><u>A playlist muda de acordo com a página que está,</u></p>
+                <p><u>então lute pra achar a música que gosta.</u></p>
+                <p>┬──┬◡ﾉ(° -°ﾉ)</p>
+                <p>(丿>ロ<)丿 ┤∵:.</p>
+                <p>(╯°□°）╯︵ ┻━┻</p>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>RedKitsune Art</h3>
+            <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RedKitsune Art — Feito por Ingrid Batista Barros</p>
+            <p>Espero que tenham gostado e até a próxima :3</p>
+        </div>
+    </footer>
+</body>
+</html>

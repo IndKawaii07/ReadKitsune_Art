@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Chamado dos deuses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navhis">
+        <div class="logo-container">
+            <img src="imagens/Fox.png" alt="Logo Raposa">
+            <span class="logo">RedKitsune Art</span>
+        </div>
+
+        <ul class="links">
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/ReadKitsune_Art.html">Início</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></li>            
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></li>
+        </ul>
+        </div> 
+    </header>
+    
+    <section class="video-fundo-deuses">
+
+        <div class="video-fundo-deuses2"></div>
+
+        <div class="video-texto-deuses">
+            <div class="historias2">
+                <h2><a>O Chamado dos deuses</a></h2>
+                <p><u>O Sangue dos Escolhidos</u></p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container-colunas">
+            
+            <div class="coluna-esquerda">
+                <p><strong>No princípio, havia apenas um vasto vazio ecoando entre o tudo e o nada. Até que Caos decidir dar um propósito 
+                    à nossa história, criando, enfim, os deuses. Divindades encontrada na mitologia grega, reconhecida como seres imortais 
+                    que habitam o Monte Olimpo. Os protetores e criadores da humanidade...
+                </strong></p>
+                <br>
+                <p><strong>
+                    ...Graças a esse legado deixado pelos poderosos, com o tempo, a existência dos deuses, se tornou apenas parte de 
+                lendas encontradas nos livros de história. Mitos que hoje passam despercebidos e até esquecidos nesta geração. Entretanto, 
+                o legado foi firmado pela proteção dos seres celestial, mesmo que a humanidade ainda não presencie ou compreenda de fato 
+                os perigos que, um dia, poderia destruir o mundo.
+                </strong></p>
+                <p style="color: red;"><strong>Está preparado para encarar?</strong></p>
+                <br>
+                <p><strong>Espero que gostem (ﾉ´ヮ´)ﾉ*:･ﾟ✧</strong></p>
+                <br>
+                <p><strong>Logo abaixo, você terá acesso ao PDF completo ou dos capítulos separados se preferir. Boa leitura! ^^</strong></p><br>
+                
+                <a href="Chamado dos Deuses - completo.pdf">O Chamado dos deuses - Completo</a><br>
+                <a href="Chamado dos Deuses - Capitulo 1.pdf">O Chamado dos deuses - Capa/ Sumário/ Capítulo 1(O Encontro)</a><br>
+                <a href="Chamado dos Deuses - Capitulo 2.pdf">O Chamado dos deuses - Capítulo 2 (Águas Profundas)</a><br>
+                <a href="Chamado dos Deuses - Capitulo 3.pdf">O Chamado dos deuses - Capítulo 3 (Alvo de Surpresas)</a><br>
+                <br>
+
+                <p style="color: red;"><strong>Essa história foi baseado a uma coleção de livros famosa chamado "Percy Jackson" um livro 
+                    de fantasia contando a história de percy um meio sangue do deus grego Poseidon, mas não tem meio sangue ou filhos legitmos 
+                    dos deuses, apenas pessoas escolhidas mesmos. E eu realmente amo a mitologia grega, por isso e pelo meu melhor amigo Frank 
+                    decidi focar nessa história. Então espero que tenham gostado e em breve tem mais hehe.
+                </strong></p><br>
+
+                <details class="texto-recolhivel">
+                    <summary><u>Curiosidades de cada personagem (Contém spoilers)</u></summary><br>
+                    <p><strong><u>Em breve hehe</u></strong></p><br>
+                    <img src="imagens/Nichijou - Mio chan.gif">
+                </details><br>
+
+                    
+                <p style="color: red;"><strong>Um aviso: As imagem sobre a história são temporárias. Estou vendo para fazer pelo menos 
+                    01 imagem de alguma cena da história. Assim que eu fazer as imagens postarei aqui e na minha galeria.
+                        </strong></p><br>
+
+                
+                <button id="btn-topo" onclick="voltarAoTopo()">
+                    <img src="imagens/seta.png" class="icone-seta">
+                </button>
+
+                <script>
+                    // Mostrar botão ao rolar
+                    window.addEventListener("scroll", function () {
+                        const btn = document.getElementById("btn-topo");
+                        if (window.scrollY > 200) {
+                            btn.style.display = "block";
+                        } else {
+                            btn.style.display = "none";
+                        }
+                    });
+
+                    // Função para voltar ao topo
+                    function voltarAoTopo() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    }
+                </script>
+            </div>
+
+            <div class="coluna-direita borda-roxa">
+                <img src="imagens/ouvindo_musica.gif">
+                <div class="music-player">
+                <button id="prevBtn">⏮</button>
+                <button id="playPauseBtn">▶</button>
+                <button id="nextBtn">⏭</button>
+                
+            </div>
+            <input type="range" id="seekBar" value="0" min="0" max="100">
+
+            <audio id="audioPlayer"></audio>
+            <div class="info-scroll">
+                <p>Playlist:</p>
+                <p>-O Chamado dos deuses-</p>
+                <p>1. Linkin Park - Two Faced (Nikolaos)</p>
+                <P>2. Imagine Dragons - Thunder (Nikolaos)</p>
+                <P>3. Demi Lovato - Confident (Sophia)</p>
+                <P>4. Neomi & burnboy - Champion (Sophia)</p>
+                <P>5. Eminem - Rap God (Ray)</p>
+                <p>6. Downtown Fiction - I Just Wanna Run (Ray)</p>
+                <p>7. All Good Things - For the glory (Marco)</p>
+                <p>8. The Score - Glory (Marco)</p>
+                <p>9. Teya Dora - Džanum (Kai)</p>
+                <p>10. Imagine Dragons - Birds (Kai)</p>
+                <p>11. Beyoncé - Run the world girls (Aiyra)</p>
+                <p>12. Daya - Sit still, look pretty (Aiyra)</p>
+                <p>13. Justin TImberlaker - Can't stop the feeling (Kauê)</p>
+                <p>14. Post Malone ft. Swae Lee - Sunflower (Kauê)</p>
+                <p>13. Melanie Martinez - Mad Hatter (????)</p>
+                <p>14. Mia Rodriguez - Psycho (????)</p>
+                <p>13. Layto - Little Poor me (????)</p>
+                <p>14. Set it Off - Wolf in Sheep's clothing (????)</p>
+
+                
+            </div>
+            <div class="stamps_contato">
+                <p>
+                    <img src="imagens/Uau_tails.png">
+                    <img src="imagens/japanese.gif">
+                </p>
+                <p>
+                    <img src="imagens/error.gif">
+                    <img src="imagens/happy_emoji.png">
+                </p>
+                <p>
+                    <img src="imagens/keep_out.png">
+                    <img src="imagens/fire_anime.gif">
+                </p>
+                <p>
+                    <img src="imagens/paisagem_red.gif">
+                    <img src="imagens/o_mar.gif">
+                </p>
+                <p>
+                    <img src="imagens/fight.gif">
+                    <img src="imagens/madoka.gif">
+                </p>
+                <p>
+                    <img src="imagens/vocaloid.gif">
+                    <img src="imagens/sei_la.gif">
+                </p>
+            </div>
+            <script>
+                const playlist = [
+                    "musicas/Linkin Park - Two Faced (Official Audio) - FromZeroLPTV (youtube).mp3",
+                    "musicas/Imagine Dragons - Thunder (Audio) - ImagineDragonsVEVO (youtube).mp3",
+                    "musicas/Demi Lovato - Confident (Official Audio) - Demi Lovato (youtube).mp3",
+                    "musicas/Champion - Neoni & burnboy (Tradução) • 30ofJulho - ★ 𝖏𝖚𝖑𝖍𝖔𝖘 ★ (youtube).mp3",
+                    "musicas/Eminem - Rap God (Audio) - EminemMusic (youtube).mp3",
+                    "musicas/THE DOWNTOWN FICTION - I Just Wanna Run [AUDIO] - photofinishrecords (youtube).mp3",
+                    "musicas/For The Glory - All Good Things (youtube).mp3",
+                    "musicas/The Score - Glory (Official Audio) - TheScoreVEVO (youtube).mp3",
+                    "musicas/Teya Dora - Džanum (Lyrics) - 7clouds (youtube).mp3",
+                    "musicas/Imagine Dragons - Birds (Official Audio) - Nightly (youtube).mp3",
+                    "musicas/Beyoncé - Run The World (Girls) (Audio) - BeyoncéVEVO (youtube).mp3",
+                    "musicas/Daya - Sit Still, Look Pretty (Audio Only) - Daya (youtube).mp3",
+                    "musicas/Justin Timberlake - Can't Stop The Feeling (audio) - Chris Jonn (youtube).mp3",
+                    "musicas/Post Malone - Sunflower [Spider-Man Into The Spider-Verse] (Audio) - MPMusic (youtube).mp3",
+                    "musicas/Melanie Martinez - Mad Hatter (audio) - Cry Dead (youtube).mp3",
+                    "musicas/Mia Rodriguez - Psycho [Official Audio] - mia rodriguez (youtube).mp3",
+                    "musicas/Layto - Little Poor Me (Official Lyric Video) - Layto (youtube).mp3",
+                    "musicas/Set It Off Wolf in Sheep's Clothing (Lyric Video) - Equal Vision Records (youtube).mp3"
+                ];
+
+                let currentTrack = 0;
+
+                const audio = document.getElementById("audioPlayer");
+                const playPauseBtn = document.getElementById("playPauseBtn");
+                const seekBar = document.getElementById("seekBar");
+
+                // Carrega a primeira música
+                audio.src = playlist[currentTrack];
+
+                // Play / Pause
+                playPauseBtn.addEventListener("click", () => {
+                    if (audio.paused) {
+                        audio.play();
+                        playPauseBtn.textContent = "⏸";
+                    } else {
+                        audio.pause();
+                        playPauseBtn.textContent = "▶";
+                    }
+                });
+
+                // Botão anterior
+                document.getElementById("prevBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Botão próximo
+                document.getElementById("nextBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Atualizar barra conforme música toca
+                audio.addEventListener("timeupdate", () => {
+                    if (audio.duration) {
+                        seekBar.value = (audio.currentTime / audio.duration) * 100;
+                    }
+                });
+
+                // Arrastar a barra para mudar o ponto da música
+                seekBar.addEventListener("input", () => {
+                    audio.currentTime = (seekBar.value / 100) * audio.duration;
+                });
+
+                // Quando uma música termina → próxima
+                audio.addEventListener("ended", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+            </script>
+                <p>Essas músicas todas foram feitas baseada em</p>
+                <p>cada personagem (tipo música tema) seja na</p>
+                <p>tradução ou na personalidade do personagem.</p>
+                <p>A cada novo personagem vou adicionando mais</p>
+                <p>então se preparem (ง︡'-'︠)ง</p>
+                <p>Então espero que gostem hehe ^^ </p>
+                <p>e um aviso pequenininho:</p>
+                <p><u>A playlist muda de acordo com a página que está,</u></p>
+                <p><u>então lute pra achar a música que gosta.</u></p>
+                <p>┬──┬◡ﾉ(° -°ﾉ)</p>
+                <p>(丿>ロ<)丿 ┤∵:.</p>
+                <p>(╯°□°）╯︵ ┻━┻</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>RedKitsune Art</h3>
+            <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RedKitsune Art — Feito por Ingrid Batista Barros</p>
+            <p>Espero que tenham gostado e até a próxima :3</p>
+        </div>
+    </footer>
+</body>
+</html>

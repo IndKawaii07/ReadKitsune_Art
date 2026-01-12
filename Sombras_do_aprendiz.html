@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sombras do Aprendiz - Uma história Star Wars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navhis">
+        <div class="logo-container">
+            <img src="imagens/Fox.png" alt="Logo Raposa">
+            <span class="logo">RedKitsune Art</span>
+        </div>
+
+        <ul class="links">
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/ReadKitsune_Art.html">Início</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></li>            
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></li>
+            <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></li>
+        </ul>
+        </div> 
+    </header>
+    
+    <section class="video-fundo-star">
+
+        <div class="video-fundo-star2"></div>
+
+        <div class="video-texto-deuses">
+            <div class="historias2">
+                <h2><a>Sombras do Aprendiz</a></h2>
+                <p><u>Uma História Star Wars</u></p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container-colunas">
+            
+            <div class="coluna-esquerda">
+                <p><strong>Há muito tempo, numa galáxia muito, muito distante...</strong></p><br>
+                <p style="color: yellow;"><strong>
+                    Séculos se passaram desde o sacrifício de Anakin Skywalker e o fim da antiga Ordem Jedi. Com o tempo, as 
+                    histórias sobre o Escolhido tornaram-se lendas... e as lendas, esquecidas. Todavia nas fronteiras da 
+                    galáxia, um jovem cavaleiro chamado Joshua Baumann começa a questionar o silêncio da Força e busca pela verdade. 
+                </strong></p><br>
+                <p style="color: yellow;"><strong>Pouco tempo depois, ele é dado como morto em uma missão. Agora, sua aprendiz, dividida entre o dever e os 
+                    sentimentos que a consomem. Parte em uma jornada por respostas.</strong></p>
+                <p style="color: yellow;"><strong>Nas profundezas esquecidas da galáxia, ela descobre a verdade: Seu mestre vive..., mas aquele homem, já 
+                    pertence ao lado sombrio da Força. </strong></p><br>
+                <p style="color: red;"><strong>Que a força esteja com vocês.</strong></p>
+                <br>
+                <p><strong>Espero que gostem (ﾉ´ヮ´)ﾉ*:･ﾟ✧</strong></p>
+                <br>
+                <p><strong>Logo abaixo, você terá acesso ao PDF completo ou dos capítulos separados se preferir. Boa leitura! ^^</strong></p><br>
+                
+                <p><strong><u>Em Breve. . . </u></strong></p>
+
+                <p style="color: red;"><strong>Essa história foi baseado no clássico filme star wars, com inspiração ao meu amigo Joshua que ama 
+                    a saga do Anakin Skywalker. Mas se você não conhece nada de star wars, não esquenta e pode ler a vontade que tu vai pegar a 
+                    história.
+                </strong></p><br>
+
+                <details class="texto-recolhivel">
+                    <summary><u>Curiosidades (Contém spoilers)</u></summary><br>
+                    <p><strong><u>Em breve hehe</u></strong></p><br>
+                    <img src="imagens/Nichijou - Mio chan.gif">
+                </details><br>
+
+                <img src="imagens/star_wars_anime.gif"><br>
+
+                    
+                <p style="color: red;"><strong>Um aviso: As imagem sobre a história são temporárias. Estou vendo para fazer pelo menos 
+                    01 imagem de alguma cena da história. Assim que eu fazer as imagens postarei aqui e na minha galeria.
+                        </strong></p><br>
+
+                
+                <button id="btn-topo" onclick="voltarAoTopo()">
+                    <img src="imagens/seta.png" class="icone-seta">
+                </button>
+
+                <script>
+                    // Mostrar botão ao rolar
+                    window.addEventListener("scroll", function () {
+                        const btn = document.getElementById("btn-topo");
+                        if (window.scrollY > 200) {
+                            btn.style.display = "block";
+                        } else {
+                            btn.style.display = "none";
+                        }
+                    });
+
+                    // Função para voltar ao topo
+                    function voltarAoTopo() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    }
+                </script>
+            </div>
+
+            <div class="coluna-direita borda-roxa">
+                <img src="imagens/dance_clone.gif">
+                <div class="music-player">
+                <button id="prevBtn">⏮</button>
+                <button id="playPauseBtn">▶</button>
+                <button id="nextBtn">⏭</button>
+                
+            </div>
+            <input type="range" id="seekBar" value="0" min="0" max="100">
+
+            <audio id="audioPlayer"></audio>
+            <div class="info-scroll">
+                <p>Playlist:</p>
+                <p>-Star Wars-</p>
+                <p>1. Main Title and The Attack on the Jakku Village</p>
+                <P>2. Duel Of The Fates</p>
+                <P>3. March of the Resistance</p>
+                <P>4. The Force Suite</p>
+                <P>5. The Trip to the Naboo Temple and the Audience with Boss Nass</p>
+                <p>6. Across the Stars </p>
+                <p>7. Battle of Heroes</p>
+                <p>8. Anakin vs. Obi-Wan</p>
+                <p>9. Anakin's Dark Deeds</p>
+                <p>10. Imperial Attack</p>
+                <p>11. The Imperial March</p>
+                <p>12. The Return of the Jedi</p>
+
+                
+            </div>
+            <div class="stamps_contato">
+                <p>
+                    <img src="imagens/clones.jpg">
+                    <img src="imagens/nave.jpg">
+                </p>
+                <p>
+                    <img src="imagens/han_solo.jpg">
+                    <img src="imagens/cd.gif">
+                </p>
+                <p>
+                    <img src="imagens/production_sequence.gif">
+                    <img src="imagens/padmé.jpg">
+                </p>
+                <p>
+                    <img src="imagens/vibe.gif">
+                    <img src="imagens/robot_sonic.gif">
+                </p>
+                <p>
+                    <img src="imagens/fight.gif">
+                    <img src="imagens/o_mar.gif">
+                </p>
+                <p>
+                    <img src="imagens/brilho2.gif">
+                    <img src="imagens/sei_la.gif">
+                </p>
+            </div>
+            <script>
+                const playlist = [
+                    "musicas/John Williams - Main Title and The Attack on the Jakku Village (Audio Only) - DisneyMusicVEVO (youtube).mp3",
+                    "musicas/Star Wars - John Williams - Duel Of The Fates - tomoxis (youtube).mp3",
+                    "musicas/John Williams - March of the Resistance (Audio Only) - DisneyMusicVEVO (youtube).mp3",
+                    "musicas/Star Wars - The Force Suite (Theme) - Jorah the Andal (youtube).mp3",
+                    "musicas/The Trip to the Naboo Temple and the Audience with Boss Nass - John Williams (youtube).mp3",
+                    "musicas/Across the Stars (Love Theme from Star Wars Attack of the Clones) - John Williams (youtube).mp3",
+                    "musicas/Battle of the Heroes - John Williams (youtube).mp3",
+                    "musicas/Anakin vs. Obi-Wan - John Williams (youtube).mp3",
+                    "musicas/Anakin's Dark Deeds - John Williams (youtube).mp3",
+                    "musicas/Imperial Attack - John Williams (youtube).mp3",
+                    "musicas/The Imperial March (Darth Vader's Theme) - John Williams (youtube).mp3",
+                    "musicas/The Return of the Jedi - John Williams (youtube).mp3"
+                ];
+
+                let currentTrack = 0;
+
+                const audio = document.getElementById("audioPlayer");
+                const playPauseBtn = document.getElementById("playPauseBtn");
+                const seekBar = document.getElementById("seekBar");
+
+                // Carrega a primeira música
+                audio.src = playlist[currentTrack];
+
+                // Play / Pause
+                playPauseBtn.addEventListener("click", () => {
+                    if (audio.paused) {
+                        audio.play();
+                        playPauseBtn.textContent = "⏸";
+                    } else {
+                        audio.pause();
+                        playPauseBtn.textContent = "▶";
+                    }
+                });
+
+                // Botão anterior
+                document.getElementById("prevBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack - 1 + playlist.length) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Botão próximo
+                document.getElementById("nextBtn").addEventListener("click", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+
+                // Atualizar barra conforme música toca
+                audio.addEventListener("timeupdate", () => {
+                    if (audio.duration) {
+                        seekBar.value = (audio.currentTime / audio.duration) * 100;
+                    }
+                });
+
+                // Arrastar a barra para mudar o ponto da música
+                seekBar.addEventListener("input", () => {
+                    audio.currentTime = (seekBar.value / 100) * audio.duration;
+                });
+
+                // Quando uma música termina → próxima
+                audio.addEventListener("ended", () => {
+                    currentTrack = (currentTrack + 1) % playlist.length;
+                    audio.src = playlist[currentTrack];
+                    audio.play();
+                    playPauseBtn.textContent = "⏸";
+                });
+            </script>
+                <p>Bom eu coloquei as trilhas sonoras dos filmes</p>
+                <p>para dar mais a experiência do universo de </p>
+                <p>star wars. Então espero que gostem hehe (͠≖ ͜ʖ͠≖)</p>
+                <p>e um aviso pequenininho:</p>
+                <p><u>A playlist muda de acordo com a página que está,</u></p>
+                <p><u>então lute pra achar a música que gosta.</u></p>
+                <p>┬──┬◡ﾉ(° -°ﾉ)</p>
+                <p>(丿>ロ<)丿 ┤∵:.</p>
+                <p>(╯°□°）╯︵ ┻━┻</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>RedKitsune Art</h3>
+            <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RedKitsune Art — Feito por Ingrid Batista Barros</p>
+            <p>Espero que tenham gostado e até a próxima :3</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RedKitsune Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navhis">
+      <div class="logo-container">
+        <img src="imagens/Fox.png" alt="Logo Raposa">
+        <span class="logo">RedKitsune Art</span>
+      </div>
+
+      <ul class="links">
+         <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/ReadKitsune_Art.html">Início</a></li>
+         <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre</a></li>
+         <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></li>            
+         <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></li>
+         <li><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></li>
+      </ul>
+    </div> 
+  </header>
+
+  <section class="video-fundo">
+
+    <div class="video-fundo2"></div>
+
+    <div class="video-texto">
+      <h1>RedKitsune Art</h1>
+      <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+    </div>
+  </section>
+  <button id="btn-topo" onclick="voltarAoTopo()">
+    <img src="imagens/seta.png" class="icone-seta">
+  </button>
+  <script>
+    // Mostrar botão ao rolar
+    window.addEventListener("scroll", function () {
+        const btn = document.getElementById("btn-topo");
+        if (window.scrollY > 200) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    });
+
+    // Função para voltar ao topo
+    function voltarAoTopo() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+</script>
+  <main>
+     <section class="historias">
+      <div class="historias1"></div> /* fundo escuro */ 
+      <div class="historias2">
+        <h2><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Historias.html">Histórias</a></h2>
+        <p>Veio aqui pelas histórias? Por que não disse logo?</p>
+      </div>
+    </section>
+
+    <section class="sobre">
+      <div class="sobre1"></div>
+      <div class="sobre2">
+        <h2><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Sobre.html">Sobre Mim</a></h2>
+        <p>Você é bem curioso. Não tem outra coisa pra fazer?</p>
+      </div>
+    </section>
+
+    <section class="galeria">
+      <div class="galeria1"></div>
+      <div class="galeria2">
+        <h2><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Galeria.html">Galeria</a></h2>
+        <p>Sim, tenho vários desenhos digitais quer ver?</p>
+      </div>
+    </section>
+
+    <section class="contato">
+      <div class="contato1"></div> 
+      <div class="contato2">
+        <h2><a href="file:///C:/Users/luist/OneDrive/Documentos/Ingrid/My%20site/Contato.html">Contato</a></h2>
+        <p>Vamos ser abiguinhos! Me envie uma mensagem!</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+        <div class="footer-content">
+            <h3>RedKitsune Art</h3>
+            <p>Histórias e desenhos com alma e imaginação de uma nerd otaku</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RedKitsune Art — Feito por Ingrid Batista Barros</p>
+            <p>Espero que tenham gostado e até a próxima :3</p>
+        </div>
+    </footer>
+</body>
+</html>
