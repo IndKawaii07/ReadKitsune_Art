@@ -7,7 +7,7 @@
 
 /* body com imagem de fundo (opcional) */
 body {
-  background-image: url("imagens/estrelas.jpg"); /* se quiser, mantenha; caso contrário remova */
+  background-image: url("imagens/inicio/estrelas.jpg"); /* se quiser, mantenha; caso contrário remova */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ header {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/joinha.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/joinha.gif") center center / cover no-repeat;
 }
 
 
@@ -149,7 +149,7 @@ main section {
   height: 100vh;                 
   overflow: hidden;
   margin-top: 70px;              
-  background: url("imagens/historia.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/historia.gif") center center / cover no-repeat;
 }
 
 .historias1 {
@@ -192,7 +192,7 @@ main section {
   height: 100vh;                 
   overflow: hidden;
   margin-top: 70px;              
-  background: url("imagens/sobre_mim.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/sobre_mim.gif") center center / cover no-repeat;
 }
 
 .sobre1 {
@@ -236,7 +236,7 @@ main section {
   height: 100vh;                 
   overflow: hidden;
   margin-top: 70px;              
-  background: url("imagens/galeria.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/galeria.gif") center center / cover no-repeat;
 }
 
 .galeria1 {
@@ -280,7 +280,7 @@ main section {
   height: 100vh;                 
   overflow: hidden;
   margin-top: 70px;              
-  background: url("imagens/contato.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/contato.gif") center center / cover no-repeat;
 }
 
 .contato1 {
@@ -372,7 +372,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/contato1.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/contato1.gif") center center / cover no-repeat;
 }
 
 
@@ -405,7 +405,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/sobre_mim1.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/sobre_mim1.gif") center center / cover no-repeat;
 }
 
 
@@ -449,7 +449,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/galeria1.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/galeria1.gif") center center / cover no-repeat;
 }
 
 
@@ -482,7 +482,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/historia1.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/historia1.gif") center center / cover no-repeat;
 }
 
 
@@ -694,7 +694,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/iasmin.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/iasmin.gif") center center / cover no-repeat;
 }
 
 
@@ -798,7 +798,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/diario_de_terror_capa.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/diario_de_terror_capa.gif") center center / cover no-repeat;
 }
 .video-fundo-diario2 {
   position: absolute;
@@ -839,7 +839,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/sangue_dos_deuses.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/sangue_dos_deuses.gif") center center / cover no-repeat;
 }
 .video-fundo-deuses2 {
   position: absolute;
@@ -879,7 +879,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/Obi-Wan\ Kenobi\ vs\ Darth\ Vader.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/Obi-Wan\ Kenobi\ vs\ Darth\ Vader.gif") center center / cover no-repeat;
 }
 .video-fundo-star2 {
   position: absolute;
@@ -918,7 +918,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/deku_Capa.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/deku_Capa.gif") center center / cover no-repeat;
 }
 .video-fundo-boku2 {
   position: absolute;
@@ -958,7 +958,7 @@ footer {
   overflow: hidden;
   margin-top: 70px;              /* empurra o conteúdo para baixo do header fixo */
   /* GIF como fundo (mantém animação) */
-  background: url("imagens/koi_no_mahou_capa.gif") center center / cover no-repeat;
+  background: url("imagens/inicio/koi_no_mahou_capa.gif") center center / cover no-repeat;
 }
 .video-fundo-koi2 {
   position: absolute;
@@ -988,4 +988,5 @@ footer {
 
 .video-texto-boku:hover {
   color: red;
+
 }
